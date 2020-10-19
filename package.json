@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "build portfolio web",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zh6ziq",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0"
+  }
+}
