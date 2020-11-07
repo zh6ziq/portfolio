@@ -4,7 +4,7 @@
   "description": "build portfolio web",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "author": "zh6ziq",
   "license": "MIT",
@@ -12,6 +12,7 @@
     "@fortawesome/fontawesome-free": "^5.15.1",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "nodemon": "^2.0.6"
   }
 }
