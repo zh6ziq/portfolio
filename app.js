@@ -2,7 +2,8 @@
 const express = require('express')
 
 const app = express()
-const port = 3000
+const env = require('dotenv').config()
+var port = process.env.PORT || 3000
 
 
 //serving static files
